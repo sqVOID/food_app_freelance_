@@ -30,5 +30,9 @@
 
 ## IF ERROR OCCURED JUST REPEAT
 
+## OUTPUT
+![Screenshot 2025-03-19 090406](https://github.com/user-attachments/assets/77c0ed7c-84d5-4e84-a92f-f21b1a57b9cc)
+
+
 
 
