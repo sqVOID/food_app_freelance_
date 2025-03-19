@@ -8,8 +8,8 @@
 ### Download Android Studio!
 ### Download myproject place it to the htdocs xampp
 ### Download and Import in phpMyAdmin food_app.sql
-### Start Xampp = Apache, Mysql!
-### I use pixel4
+### Start Xampp = Apache, Mysql
+### Pixel4
 
 
 1. Install dependencies
