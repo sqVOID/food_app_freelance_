@@ -5,16 +5,16 @@
    ```sh
    git clone https://github.com/sqVOID/Praxxys-front-end-dev-exam.git
 
-## Download Android Studio!
-## Download myproject place it to the htdocs xampp
-## Download and Import in phpMyAdmin food_app.sql
-## Start Xampp = Apache, Mysql!
+### Download Android Studio!
+### Download myproject place it to the htdocs xampp
+### Download and Import in phpMyAdmin food_app.sql
+### Start Xampp = Apache, Mysql!
+### I use pixel4
+
 
 1. Install dependencies
    ```sh
    npm install
-
-## !I USE PIXEL4!
 
 2. Sync and plugin Android:
    ```sh
@@ -28,7 +28,7 @@
    ```sh
    ionic capacitor run android -l --external
 
-## IF ERROR OCCURED JUST REPEAT##
+## IF ERROR OCCURED JUST REPEAT
 
 
 
