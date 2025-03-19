@@ -21,10 +21,10 @@
    npx cap sync android
 
 4. Builds and runs the Android app:
-5. ```sh
+   ```sh
    npx cap run android 
 
-6. Runs the app with live reload and external access for testing:
+5. Runs the app with live reload and external access for testing:
    ```sh
    ionic capacitor run android -l --external
 
