@@ -1,0 +1,223 @@
+.no-border {
+  --ion-background-color: white !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+ion-toolbar {
+  --background: white;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: none !important;
+  border-bottom: none !important;
+  margin-top: 30px;
+}
+
+.menu-icon {
+  font-size: 48px;
+  margin-top: 10px;
+  color: #d81e05;
+}
+
+.points-container5 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: bold;
+}
+
+.crown-icon {
+  color: #f7b500;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.points-text5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: black;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.content-points {
+  padding: 20px;
+}
+
+.tier-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.crown-icon5 {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  margin-left: -5;
+}
+
+.tier-text {
+  font-weight: 500;
+  flex-grow: 1;
+  margin-top: 15px;
+}
+
+.view-all {
+  color: rgb(174, 2, 2);
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.points-description {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.points-description2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: -5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.arrow-icon {
+  margin-left: px;
+  font-size: 16px;
+  margin-top: 9px;
+  color: red;
+}
+
+.points-circle-container {
+  width: 180px;  
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  top: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.progress-circle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.progress-bg {
+  fill: none;
+  stroke: #f5c6cb;
+  stroke-width: 8;
+  opacity: 0.3;
+}
+
+.progress-bar {
+  fill: none;
+  stroke: #f5c6cb;;
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.progress-text {
+  font-size: 14px;
+  font-weight: bold;
+  fill: black;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.rewards-section {
+  margin-top: 20px;
+}
+
+.rewards-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.how-it-works {
+  color: rgb(174, 2, 2);
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+  margin-left: 160px;
+}
+
+.arrow-icon {
+  margin-left: 8px;
+  font-size: 16px;
+  margin-top: 9px;
+}
+
+.rewards-filters {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.filter-btn {
+  border: none;
+  padding: 13px 18.5px;
+  border-radius: 13px;
+  background: lightgray;
+  cursor: pointer;
+  color: #666;
+}
+
+.filter-btn.active {
+  background: rgb(219, 3, 3);
+  color: white;
+}
+
+.reward-item {
+  display: flex;
+  align-items: center;
+  background: #e9eaeb;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.reward-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.reward-details h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.reward-details p {
+  margin: 2px 0;
+  font-size: 12px;
+  color: rgb(61, 60, 60);
+  margin-bottom: 6px;
+}
+
+.reward-points {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(196, 4, 4);
+}
+
+

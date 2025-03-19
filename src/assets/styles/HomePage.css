@@ -1,0 +1,467 @@
+
+.no-border {
+  --ion-background-color: white !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+ion-toolbar {
+  --background: white;
+  --padding-start: 10px;
+  --padding-end: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: none !important;
+  border-bottom: none !important;
+  margin-top: 30px;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 48px;
+  color: #d81e05;
+}
+
+.points-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+}
+
+.crown-icon {
+  color: #f7b500;
+  width: 30px;
+  margin-left: 15px;
+}
+
+.points-text {
+  font-size: 18px;
+  color: black;
+  margin-left: 10px;
+}
+
+.chevron-icon {
+  font-size: 18px;
+  color: rgb(235, 0, 0);
+}
+
+
+
+.profile-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.profile-avatar2 {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+
+
+
+.content-area {
+  padding: 20px;
+}
+
+.fastfood-logo {
+  width: 105px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.greeting {
+  padding-left: 100px;
+}
+
+.greeting-small {
+  font-size: 14px;
+  color: rgb(54, 52, 52);
+  margin-top: -0px;
+}
+
+.greeting-main {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  margin-top: -15px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.search-icon {
+  font-size: 26px;
+  color: rgb(218, 30, 5);
+  margin-right: 10px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  font-size: 16px;
+  color: black;
+}
+
+.special-offers {
+  margin-top: 20px;
+}
+
+.special-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.view-all {
+  color: red;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.offers-container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+}
+
+.offer-img {
+  width: 310px;
+  height: auto;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+
+.category-container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto; 
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.category-item {
+  position: relative;
+  width: 65%;
+  flex: 0 0 auto; 
+  scroll-snap-align: start;
+}
+
+.category-img {
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  filter: brightness(70%); 
+}
+
+.category-label {
+  position: absolute;
+  bottom: 120px;
+  left: 10px;
+  background: transparent;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+.whats-new-section {
+  margin-top: -100px;
+}
+
+.whats-new-img {
+  width: 100%;
+  height: 120%;
+  border-radius: 15px;
+}
+
+.most-popular-section {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  
+}
+
+.popular-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+
+}
+
+
+.popular-card {
+  flex: 0 0 200px;
+  background: #E9ECEF;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: left;
+  scroll-snap-align: start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popular-img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.popular-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.popular-rating {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+  margin-left: 60px;
+}
+
+.star-icon {
+  font-size: 13px;
+  color: #ffc107; 
+  transition: transform 0.2s ease-in-out;
+  margin-top: 3px;
+}
+
+.star-icon:hover {
+  transform: scale(1.1);
+}
+
+
+.popular-category {
+  font-size: 14px;
+  color: #101010;
+  margin-top: -5px;
+}
+
+.popular-price {
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 50px;
+ 
+}
+
+.order-now-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 73%;
+  transform: translateX(-50%);
+  width: 40%;
+  background: #e80000 !important;
+  color: white !important;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: none !important; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-button.order-now-btn {
+  --background: transparent !important; 
+  --color: transform !important; 
+  --box-shadow: transparent;
+  text-transform: none !important;
+}
+
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: left 0.5s ease-in-out;
+  padding: 0px;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.menu-button {
+  font-size: 24px;
+}
+
+.menu-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 16px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+ul li ion-icon {
+  margin-right: 10px;
+  
+}
+
+.logout-btn {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0; 
+  border: none; 
+  border-radius: 20px; 
+  background-color: red; 
+  color: white; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+ion-button.logout-btn {
+  --background: transparent !important; 
+  --color: transform !important; 
+  --box-shadow: transparent;
+  text-transform: none !important;
+}
+
+ion-list {
+  width: 100%;
+  padding: 0;
+}
+
+ion-item {
+  --border-width: 0;
+  --inner-border-width: 0;
+  border: none !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 5px; 
+  font-size: 14px;
+  margin-top: -5px;
+  top: 10px;
+}
+
+ion-item::part(native) {
+  display: flex;
+  align-items: center;
+}
+
+
+.menu-logo {
+  width: 30px;
+  height: auto;
+  margin-left: -2px;
+  margin-right: 14px;
+  margin-top: -10px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+.profile-info h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: gray;
+}
+
+.icon-menu {
+  margin-left: 10px;
+  
+}
+
+ion-item ion-icon {
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.menu-points-2 {
+  display: flex;
+  width: 100%;
+  margin-top: -35px;
+  margin-left: 100px;
+  
+  
+}
+
+.menu-label {
+  margin-top: 0px;
+  font-weight: 500;
+  
+}
+
+.points-text2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin-left: 20px;
+  
+}
+
+
+.chevron-icon2 {
+  font-size: 18px;
+  color: darkred;
+  margin-left: 10px;
+}
+
+
+.crown-icon2 {
+  color: #f7b500;
+  width: 26px;
+  margin-top: -5px;
+}
+
+
