@@ -10,21 +10,25 @@
 ## Download and Import in phpMyAdmin food_app.sql
 ## Start Xampp = Apache, Mysql!
 
-Install dependencies:
-npm install
+1. Install dependencies
+   ```sh
+   npm install
 
-!I USE PIXEL4!
+## !I USE PIXEL4!
 
-Sync and plugin Android:
-npx cap sync android
+2. Sync and plugin Android:
+   ```sh
+   npx cap sync android
 
-Builds and runs the Android app:
-npx cap run android 
+4. Builds and runs the Android app:
+5. ```sh
+   npx cap run android 
 
-Runs the app with live reload and external access for testing:
-ionic capacitor run android -l --external
+6. Runs the app with live reload and external access for testing:
+   ```sh
+   ionic capacitor run android -l --external
 
-##IF ERROR OCCURED JUST REPEAT##
+## IF ERROR OCCURED JUST REPEAT##
 
 
 
