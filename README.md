@@ -5,10 +5,10 @@
    ```sh
    git clone https://github.com/sqVOID/Praxxys-front-end-dev-exam.git
 
-##Download Android Studio!
-##Download myproject place it to the htdocs xampp
-##Download and Import in phpMyAdmin food_app.sql
-##Start Xampp = Apache, Mysql!
+## Download Android Studio!
+## Download myproject place it to the htdocs xampp
+## Download and Import in phpMyAdmin food_app.sql
+## Start Xampp = Apache, Mysql!
 
 Install dependencies:
 npm install
