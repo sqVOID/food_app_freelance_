@@ -3,7 +3,7 @@
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/sqVOID/Praxxys-front-end-dev-exam.git
+   git clone https://github.com/sqVOID/food_app_freelance_.git
 
 ### Download Android Studio!
 ### Download myproject place it to the htdocs xampp
